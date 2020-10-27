@@ -1,0 +1,5 @@
+---
+- hosts: all
+  remote_user: tcate
+  roles:
+  - user

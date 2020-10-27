@@ -1,0 +1,11 @@
+users:
+  - default
+  - name: tcate
+    gecos: Thomas Cate
+    home: /home/tcate
+    shell: /bin/bash
+    primary_group: admin
+    groups: tcate, users, admin
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCe4auvGaKoW6zq9UiQQE1Om0kNitPRmRh8NSm3+CHLQ+oIwrzYYYpLU+7bWOr9grO1YJ33tLNRCXE+pBfGF0ZXlGLxmXN+RU07BRyUVj0EgX5WbDK8xKP1ByR78PORLhEP/MrHEPbniAn0JtipHFOAvvTiYe7vo5gDZ+Qkw2Si+j6DQCufuaI+TI1KyDgyJS0WJQG8/8FnZ9vtph3K84qZHlNuJEK0KbK2gsm4GncD65SLxMZMU2omHWpTz0wulPIAedoD+KRrGYrtr1X1kLRiWPMb3fX+FubSL2rgR0Z7HgYY9MQbfikqsq5DmcX7dROvkyGXZmc81tQ+NHjBwfIhDZCk9daZ+uFfKM4PGw+NwtyysL51MSVxOBlsdds/lrsAJuQcNxpv/GjEY1MumFsqE0O5EAg33yLhVLTQole9rpp0K9W3VQYd6eR+XSc8gGTHUJf0bQa4pyRZd7YwJxUzJa6GHk1WiDdxUp7luLntx0mA3iMWXc9wZakZ8B6L0ec= tcate@tcate-desktop
